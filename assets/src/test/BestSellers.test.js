@@ -2,6 +2,7 @@ const fs = require('fs');
 
 const jsFiles = fs.readFileSync('./modules/bestSellers/BestSellers.tsx', 'utf-8');
 
+
 const checkName = /\/\/Name:/ig
 const checkId = /\/\/ID:/gi
 
@@ -9,10 +10,11 @@ const checkId = /\/\/ID:/gi
 describe('Check name and Id in comments', () => {
 
   
-    it('check in BestSeller.tsx', ()=> {
+    it('check in BestSellerProductRow.tsx', ()=> {
         expect(checkId&&checkName.test(jsFiles)).toBeTruthy();
     });
  
+    
   });
   
  
