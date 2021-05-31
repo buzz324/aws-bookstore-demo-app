@@ -1,3 +1,6 @@
+//ID: 1174261
+//Name: Buzz Kho
+
 import React, { Component } from "react";
 import { Redirect } from "react-router";
 import { CategoryNavBar } from "../category/categoryNavBar/CategoryNavBar";

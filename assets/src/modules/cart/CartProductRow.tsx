@@ -1,3 +1,7 @@
+
+//ID: 1174261
+//Name: Buzz Kho
+
 import React from "react";
 import "../../common/styles/productRow.css";
 import { API } from "aws-amplify";
@@ -5,6 +9,7 @@ import StarRating from "../../common/starRating/StarRating";
 import FriendRecommendations from "../../common/friendRecommendations/FriendRecommendations";
 import { Glyphicon } from "react-bootstrap";
 import { Book } from "../bestSellers/BestSellerProductRow";
+
 
 export interface Order {
   bookId: string;

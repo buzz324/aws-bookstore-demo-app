@@ -1,3 +1,6 @@
+//ID: 1174261
+//Name: Buzz Kho
+
 import { Auth } from "aws-amplify";
 import React from "react";
 import { Redirect } from 'react-router';

@@ -8,6 +8,8 @@ interface CategoryGalleryBookProps {
   book: Book;
 }
 
+//ID: 1174261
+//Name: Buzz Kho
 export class CategoryGalleryBook extends React.Component<CategoryGalleryBookProps> {
   render() {
     if (!this.props.book) return;

@@ -1,3 +1,6 @@
+//ID: 1174261
+//Name: Buzz Kho
+
 import React from "react";
 import "./searchBar.css";
 import { Redirect } from "react-router";

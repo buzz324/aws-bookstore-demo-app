@@ -19,6 +19,9 @@ interface CategoryViewProps {
   match: any;
 }
 
+//ID: 1174261
+//Name: Buzz Kho
+
 export default class CategoryView extends Component<CategoryViewProps> {
   getImage = () => {
     switch (this.props.match.params.id) {

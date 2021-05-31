@@ -1,3 +1,6 @@
+//ID: 1174261
+//Name: Buzz Kho
+
 import React, { Component } from "react";
 import { CategoryNavBar } from "../category/categoryNavBar/CategoryNavBar";
 import { SearchBar } from "../search/searchBar/SearchBar";

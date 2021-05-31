@@ -1,3 +1,6 @@
+//ID: 1174261
+//Name: Buzz Kho
+
 import React from "react";
 import { API } from "aws-amplify";
 
@@ -5,6 +8,8 @@ import AddToCart from "../../common/AddToCart";
 import FriendRecommendations from "../../common/friendRecommendations/FriendRecommendations";
 import StarRating from "../../common/starRating/StarRating";
 import "../../common/styles/productRow.css";
+
+
 
 interface ProductRowProps {
   bookId: string;
@@ -26,7 +31,7 @@ interface ProductRowState {
 
 export class ProductRow extends React.Component<ProductRowProps, ProductRowState> {
   constructor(props: ProductRowProps) {
-    super(props);
+    super(props);   //Missing a syntax character "s"
 
     this.state = {
       book: undefined,

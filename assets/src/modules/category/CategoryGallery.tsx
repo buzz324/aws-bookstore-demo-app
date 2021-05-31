@@ -4,6 +4,10 @@ import { API } from "aws-amplify";
 import CategoryGalleryBook from "./CategoryGalleryBook";
 import { Book } from "../bestSellers/BestSellerProductRow";
 
+
+//ID: 1174261
+//Name: Buzz Kho
+
 interface CategoryGalleryProps {
   match: any;
 }

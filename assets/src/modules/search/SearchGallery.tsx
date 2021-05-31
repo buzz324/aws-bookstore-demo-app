@@ -1,3 +1,6 @@
+//ID: 1174261
+//Name: Buzz Kho
+
 import React from "react";
 import "../../common/styles/gallery.css";
 import { API } from "aws-amplify";

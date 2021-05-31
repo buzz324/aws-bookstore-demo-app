@@ -12,6 +12,9 @@ interface CategoryGalleryTeaserState {
   books: Book[];
 }
 
+//ID: 1174261
+//Name: Buzz Kho
+
 export class CategoryGalleryTeaser extends React.Component<CategoryGalleryTeaserProps, CategoryGalleryTeaserState> {
   constructor(props: CategoryGalleryTeaserProps) {
     super(props);
